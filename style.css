@@ -1,0 +1,484 @@
+.search {
+  width: 100vw;
+  height: auto;
+  background-color: #e74c3c;
+  position: fixed;
+}
+
+.searchbar{
+  margin-bottom: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 60px;
+  background-color: #353b48;
+  border-radius: 30px;
+  padding: 10px;
+}
+
+.search_input{
+  color: ghostwhite;
+  border: 0;
+  outline: 0;
+  background: none;
+  width: 0;
+  caret-color:transparent;
+  line-height: 40px;
+  transition: width 0.4s linear;
+}
+
+.searchbar:hover > .search_input{
+  padding: 0 10px;
+  width: 450px;
+  caret-color:#e74c3c;
+  transition: width 0.3s linear;
+}
+
+.searchbar:hover > .search_icon{
+  background-color: ghostwhite;
+  color: #e74c3c;
+}
+
+.search_icon{
+  height: 40px;
+  width: 40px;
+  float: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color:ghostwhite;
+  border: none;
+  background-color: #353B48;
+  background-size: 110%
+}
+
+.search_icon:hover {
+  cursor: pointer;
+}
+
+.results_number {
+  font-size: 25px;
+  padding-left: 285px;
+}
+
+.result-body {
+  padding-top: 85px;
+}
+
+.result-list {
+  text-align: center;
+  padding: 10px 260px 25px 260px;
+}
+
+.pokemon_result {
+  width: 260px;
+  height: 250px;
+  text-align: center;
+  display: inline-block;
+  background-color: #353B48;
+  color: ghostwhite;
+  margin: 5px 2px;
+  
+}
+
+.pokemon_result:hover {
+  color: #0f0f0f;
+  cursor: pointer;
+  background-color: #e74c3c;
+  border: none;
+}
+
+.pokemon_result > img {
+  height: 150px;
+}
+
+.divTypes {
+  width: 258px;
+  height: 50px;
+}
+
+/* TYPES */
+.btnType {
+  border: none;
+  border-radius: 10px;
+  margin: 5px;
+  width: 92px;
+  height: 40px;
+  display: inline-block;
+  vertical-align: middle;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  transition-duration: 0.3s;
+  transition-property: transform;
+}
+
+.btnType:hover {
+  cursor: pointer;
+}
+
+.normal {
+  background-color: #A8A878;
+}
+
+.fire {
+  background-color: #F08030;
+}
+
+.water {
+  background-color: #6890F0;
+}
+
+.grass {
+  background-color: #78C850;
+}
+
+.electric {
+  background-color: #F8D030;
+}
+
+.ice {
+  background-color: #98D8D8;
+}
+
+.fighting {
+  background-color: #C03028;
+}
+
+.poison {
+  background-color: #9F429F;
+}
+
+.ground {
+  background-color: #E0C068;
+}
+
+.flying {
+  background-color: #A890F0;
+}
+
+.psychic {
+  background-color: #F85888;
+}
+
+.bug {
+  background-color: #A8B820;
+}
+
+.rock {
+  background-color: #B8A038;
+}
+
+.ghost {
+  background-color: #705898;
+}
+
+.dark {
+  background-color: #705848;
+}
+
+.dragon {
+  background-color: #7038F8;
+}
+
+.steel {
+  background-color: #B8B8D0;
+}
+
+.fairy {
+  background-color: #F0B6BC;
+}
+
+/* MODAL */
+.module-sprite-title {
+  text-align: center;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: -10%;
+  left: 50%;
+  width: 200px;
+}
+
+.carousel-item {
+  height: 350px;
+  margin: 0;
+  background-color: #e74c3c;
+}
+
+.modal-sprites {
+  height: 270px;
+}
+
+.modal-header {
+  height: 65px;
+  padding: 2px;
+}
+
+.modal-body {
+  text-align: center;
+  padding: 0;
+}
+
+.data-line {
+  height: 4px;
+  background-color: #0f0f0f;
+  font-size: 1px;
+}
+
+.poke-btn {
+  background-color: #0f0f0f;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  text-align: center;
+  position: absolute;
+  transform: translate(-50%, -46%);
+  left: 50%;
+}
+
+.poke-btn-1 {
+  background-color: #F8F8FF;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  position: absolute;
+  transform: translate(-50%, 12%);
+  left: 50%
+}
+
+.poke-btn-2 {
+  border: 2px solid #0f0f0fa8;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  text-align: center;
+  position: absolute;
+  transform: translate(-50%, 16%);
+  left: 50%
+}
+
+.modal-content {
+  min-width: 450px;
+  width: 100%;
+  max-width: 100%;
+}
+
+.modal-footer {
+  height: 20px;
+  padding: 0;
+}
+
+.div1 {
+  width: 200px;
+  height: 300px;
+  background-color: red;
+  display: inline-block;
+}
+
+.carousel-element {
+  display: inline-block;
+  width: 300px;
+  background-color: #353B48;
+  height: 300px;
+}
+
+.div2 {
+  width: 200px;
+  height: 300px;
+  background-color: blue;
+  display: inline-block;
+}
+
+/* MODAL STYLES */
+.parent {
+  max-width: 800px; 
+  height: 450px;
+  display: flex;
+}
+
+ul {
+  list-style: none;
+}
+
+.child {
+  height: 100%;
+}
+
+.c1 {
+  min-width: 300px;
+  flex-grow: 8;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.c2 {
+  text-align: center;
+  min-width: 125px;
+  background-color: #E74C3C;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 15px;
+  margin-left: 10px;
+  margin-top: 20px;
+  height: 95%;
+}
+
+.moves-title {
+  font-size: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 0;
+}
+
+.move-list {
+  max-height: 370px;
+  min-width: 125px;
+  overflow: auto;
+  border-top: 2px solid #F3A69E;
+}
+
+.move {
+  height: 24px;
+  color: rgb(49, 49, 49);
+  background-color: #F3A69E;
+  margin: 5px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.move:hover {
+  background-color: #FFFFFF;
+  cursor: default;
+}
+
+.grand {
+  width: 100%;
+  border-bottom: 1px solid rgb(216, 216, 216);
+}
+
+.g1 {
+  height: 40%;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: auto;
+  padding-left: 10px;
+}
+
+.g2 {
+  height: 35%;
+}
+
+.g3 {
+  height: 25%;
+  border:none;
+}
+
+.inner-info {
+  flex-grow: 1;
+  height: 100%;
+  min-width: 150px;
+}
+
+.inner-info-4 {
+  width: 50%;
+}
+
+.info-tag{
+  padding: 5px 0;
+  display: flex;
+}
+
+.tag-odd {
+  background-color: rgb(230, 230, 230);
+}
+
+.info-name {
+  width: 75px;
+  font-size: 14px;
+  color: rgb(90, 90, 90);
+  text-align: end;
+}
+
+.info-data {
+  font-size: 14px;
+  font-weight: bold; 
+  margin-left: 10px;
+}
+
+
+.tag-title-1 {
+  font-size: 20px;
+  margin: 20px 0 10px 0;
+  text-align: center;
+}
+
+.tag-title {
+  margin: 0;
+  text-align: center;
+  font-size: 20px;
+}
+
+.btn-type {
+  border: none;
+  border-radius: 5px;
+  font-size: 13px;
+  margin-right: 5px;
+}
+
+/* BASE STATS */
+
+.base-stat {
+  margin: 0 0 0 10px;
+  display: flex;
+  padding-top: 1px;
+}
+
+.base-stat-name {
+  min-width: 60px;
+  font-size: 14px;
+  color: rgb(90, 90, 90);
+  text-align: end;
+}
+
+.base-stat-number-level {
+  margin: 0 10px;
+  font-size: 14px;
+  font-weight:  bold;
+}
+
+.base-stat-chart-level {
+  height: 12px;
+  margin-top: 4px;
+  border-radius: 15px;
+}
+
+.yellow {
+  background-color: yellow
+}
+
+.orange {
+  background-color: orange
+}
+
+.green {
+  background-color: greenyellow;
+}
+
+.gender-male {
+  color: #006eff;
+}
+
+.gender-female {
+  color: #ee00ee;
+}
+
+.bold {
+  font-weight: 500;
+}
+
+.soft-text {
+  font-weight: lighter;
+  color: rgb(90, 90, 90);
+}
+/* MODAL STYLES END */
