@@ -230,6 +230,10 @@
 }
 
 /*------------------------------- MODAL STYLES */
+.modal-header {
+  padding: 0;
+}
+
 .modal-data-body {
   margin-top: 14px;
   max-width: 800px;
@@ -267,5 +271,14 @@
   height: auto;
 }
 
+
+.modal-footer {
+  padding: 0 25px 0 0;
+  font-size: x-small;
+}
+
+.modal-footer span {
+  font-weight: 500;
+}
 
 /*------------------------------- MODAL STYLES END */
