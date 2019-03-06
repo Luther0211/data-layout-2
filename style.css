@@ -259,7 +259,7 @@
 }
 
 .modal-content {
-  min-width: 450px;
+  min-width: 250px;
   width: 100%;
   max-width: 100%;
 }
@@ -290,17 +290,24 @@
   display: inline-block;
 }
 
-/* MODAL STYLES */
+
+/*------------------------------- MODAL STYLES */
 .modal-data-body {
   margin-top: 14px;
-  max-width: 800px; 
+  max-width: 800px;
   height: 450px;
   border: 1px solid red;
   box-sizing: border-box;
   display: flex;
   flex-wrap: wrap;
   overflow: auto;
-  justify-content: space-between;
+  justify-content: center;
+}
+
+.pokedex-info-title {
+  /* position: absolute; */
+  width: 100%;
+  text-align: center;
 }
 
 .data-section {
@@ -311,12 +318,17 @@
 
 .section-small {
   width: 49.7%;
-
+  min-width: 270px;
+  flex-grow: 1;
 }
 
 .section-big {
   width: 100%;
 }
 
+.moves_section {
+  height: auto;
+}
 
-/* MODAL STYLES END */
+
+/*------------------------------- MODAL STYLES END */
