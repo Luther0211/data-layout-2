@@ -1,4 +1,4 @@
-.search {
+search {
   width: 100vw;
   height: auto;
   background-color: #e74c3c;
@@ -255,6 +255,11 @@
   background-color: lightblue;
   height: 150px;
   margin-bottom: 4px;
+}
+
+.data-titles {
+    width: 100%;
+    text-align: center;
 }
 
 .section-small {
