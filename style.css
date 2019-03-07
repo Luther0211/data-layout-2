@@ -230,6 +230,10 @@ search {
 }
 
 /*------------------------------- MODAL STYLES */
+.modal, .fade, .show, #PokemonModal {
+    padding-left: 0 !important;
+}
+
 .modal-header {
   padding: 0;
 }
