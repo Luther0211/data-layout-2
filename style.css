@@ -246,7 +246,7 @@ search {
 }
 
 .data-section {
-  background-color: lightblue;
+  /* background-color: lightblue; */
   /* height: 150px; */
   margin-bottom: 4px;
 }
@@ -260,6 +260,10 @@ search {
 .tag-div {
     width: 100%;
     display: flex;
+}
+
+.odd {
+    background-color: lightgray;
 }
 
 .data-titles {
