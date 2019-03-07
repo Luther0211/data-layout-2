@@ -251,6 +251,10 @@ search {
   margin-bottom: 4px;
 }
 
+.data-section--inner {
+    width: 100%;
+}
+
 .section-small {
     width: 49.7%;
     min-width: 264px;
@@ -263,26 +267,30 @@ search {
 }
 
 .odd {
-    background-color: lightgray;
+    background-color: rgb(226, 226, 226);
 }
 
 .data-titles {
     width: 100%;
+    font-size: 24px;
     text-align: center;
+    font-weight: bold;
+    background-color: #e74c3c;
+    color: #fff;
 }
 
 .data-tag {
     width: 50%;
     font-size: 16px;
     text-align: end;
-    margin-right: 1%;
+    margin-right: 2%;
 }
 
 .data-tag-result {
     width: 50%;
-    font-size: 16px;
-    font-weight: bold;
-    margin-left: 1%;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 2%;
 }
 
 .section-big {
