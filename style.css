@@ -229,7 +229,7 @@ search {
   left: 50%
 }
 
-/*------------------------------- MODAL STYLES */
+/*------------------------------- MODAL DATA STYLES */
 .modal, .fade, .show, #PokemonModal {
     padding-left: 0 !important;
 }
@@ -239,9 +239,8 @@ search {
 }
 
 .modal-data-body {
-  margin-top: 20px;
+  margin-top: 30px;
   max-width: 800px;
-  /* height: 450px; */
   box-sizing: border-box;
   display: flex;
   flex-wrap: wrap;
@@ -268,6 +267,26 @@ search {
 .tag-div {
     width: 100%;
     display: flex;
+}
+
+.stat-div {
+    width: 100%;
+    display: flex;
+    margin-top: 4px;
+}
+
+.stat-tag {
+    width: 15%;
+    font-size: 16px;
+    text-align: end;
+    margin-right: 5px;
+}
+
+.stat-tag-bar {
+    width: 400px;
+    height: auto;
+    background-color: #3532e2;
+    border-radius: 20px;
 }
 
 .odd {
