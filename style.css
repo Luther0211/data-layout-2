@@ -273,18 +273,24 @@ search {
     width: 100%;
     display: flex;
     margin-top: 4px;
+    align-items: center;
 }
 
 .stat-tag {
-    width: 15%;
-    font-size: 16px;
+    width: 16%;
+    font-size: 14px;
     text-align: end;
-    margin-right: 5px;
+}
+
+.stat-tag-result {
+    font-size: 15px;
+    font-weight: 700;
+    margin: 0 2%;
 }
 
 .stat-tag-bar {
-    width: 400px;
-    height: auto;
+    width: 40%;
+    height: 12px;
     background-color: #3532e2;
     border-radius: 20px;
 }
@@ -304,15 +310,15 @@ search {
 
 .data-tag {
     width: 50%;
-    font-size: 16px;
+    font-size: 14px;
     text-align: end;
     margin-right: 2%;
 }
 
 .data-tag-result {
     width: 50%;
-    font-size: 18px;
-    font-weight: 500;
+    font-size: 15px;
+    font-weight: 700;
     margin-left: 2%;
 }
 
