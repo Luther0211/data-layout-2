@@ -189,6 +189,10 @@ search {
   background-color: #F0B6BC;
 }
 
+.carousel-item > img {
+ height: 290px;
+ /* width: 100px; */
+}
 
 .data-line {
   height: 4px;
