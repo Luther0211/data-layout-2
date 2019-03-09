@@ -192,8 +192,10 @@ search {
 
 .data-line {
   height: 4px;
+  width: 100%;
   background-color: #0f0f0f;
   font-size: 1px;
+  position: absolute;
 }
 
 .poke-btn {
@@ -232,10 +234,16 @@ search {
 /*------------------------------- MODAL DATA STYLES */
 .modal, .fade, .show, #PokemonModal {
     padding-left: 0 !important;
+    overflow: hidden;
 }
 
 .modal-header {
   padding: 0;
+}
+
+.modal-data {
+    max-height: 50vh;
+    overflow: auto;
 }
 
 .modal-data-body {
@@ -289,10 +297,7 @@ search {
 }
 
 .stat-tag-bar {
-    /* width: 40%; */
     height: 12px;
-    background-color: #3532e2;
-    /* border: 1px solid black; */
     border-radius: 20px;
 }
 
@@ -345,6 +350,25 @@ search {
 
 .moves_section {
   height: auto;
+}
+
+
+.move-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.move {
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    color: #ffff;
+    font-weight: 700;
+    background-color: rgb(46, 46, 228);
 }
 
 
