@@ -289,10 +289,27 @@ search {
 }
 
 .stat-tag-bar {
-    width: 40%;
+    /* width: 40%; */
     height: 12px;
     background-color: #3532e2;
+    /* border: 1px solid black; */
     border-radius: 20px;
+}
+
+.HP, .Sp-Def, .Speed {
+    background-color: #FFFF00;
+    border: 2px solid rgb(180, 180, 0);
+}
+
+.Attack, .Defense {
+    background-color: #FFA500;
+    border: 2px solid rgb(187, 121, 0);
+
+}
+
+.Sp-Atk {
+    background-color: #ADFF2F;
+    border: 2px solid rgb(116, 172, 32);
 }
 
 .odd {
