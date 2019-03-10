@@ -199,8 +199,8 @@ search {
 }
 
 .carousel-item > img {
- height: 290px;
- /* width: 100px; */
+ height: 20vh;
+ width: 270px;
 }
 
 .data-line {
@@ -301,6 +301,7 @@ search {
     width: 16%;
     font-size: 14px;
     text-align: end;
+    color: #707070;
 }
 
 .stat-tag-result {
@@ -331,7 +332,7 @@ search {
 }
 
 .odd {
-    background-color: rgb(226, 226, 226);
+    background-color: #E6E6E6;
 }
 
 .male {
@@ -343,8 +344,13 @@ search {
 }
 
 .steps {
+    color: #707070;
     font-size: 14px;
     font-weight: 400;
+}
+
+.pokeAPI {
+    color: #e74c3c;
 }
 
 .data-titles {
@@ -357,6 +363,7 @@ search {
 }
 
 .data-tag {
+    color: #707070;
     width: 50%;
     font-size: 14px;
     text-align: end;
