@@ -342,6 +342,11 @@ search {
     color: #ee00ee;
 }
 
+.steps {
+    font-size: 14px;
+    font-weight: 400;
+}
+
 .data-titles {
     width: 100%;
     font-size: 24px;
