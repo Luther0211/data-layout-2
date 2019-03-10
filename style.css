@@ -334,6 +334,14 @@ search {
     background-color: rgb(226, 226, 226);
 }
 
+.male {
+    color: #0f77ff;
+}
+
+.female {
+    color: #ee00ee;
+}
+
 .data-titles {
     width: 100%;
     font-size: 24px;
